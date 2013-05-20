@@ -18,7 +18,7 @@ It adds only **684byte** to the main library.
     close() // disableStack() and close current popup
     back(n) // n backward jumps (if n is undefined it counts as 1)
     modify(content, noTrack) // jump to next popup (if noTrack is 1 or true, 
-    						 //this jump is not tracked)
+    						 // this jump is not tracked)
 
 **<u>Note</u>**: `content` could be an html string or an url.
 
