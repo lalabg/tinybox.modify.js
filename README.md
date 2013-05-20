@@ -6,13 +6,13 @@ The library is lightweight ( **5kb** ) and supports *images*, *iframes*, *HTML* 
 **tinybox.modify.js** is a small [Tinybox2][1] plugin able to manage the navigation between different popups.  
 It adds only **684byte** to the main library.
 
-#### import
+### import
 
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="tinybox.js"></script>
     <script type="text/javascript" src="tinybox.modify.min.js"></script>
 
-#### API
+### API
 
     disableStack() // reset popups history and disable calls to modify()
     close() // disableStack() and close current popup
@@ -22,7 +22,7 @@ It adds only **684byte** to the main library.
 
 **<u>Note</u>**: `content` could be an html string or an url.
 
-### TODO
+## TODO
 I am planning to insert *on open and on close callbacks* as additional parameters of modify().
 
 
