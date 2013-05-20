@@ -6,8 +6,6 @@ The library is lightweight ( **5kb** ) and supports *images*, *iframes*, *HTML* 
 **tinybox.modify.js** is a small [Tinybox2][1] plugin able to manage the navigation between different popups.  
 It adds only **684byte** to the main library.
 
-**@see** a simple example: [link][2]
-
 #### import
 
     <link rel="stylesheet" href="style.css">
