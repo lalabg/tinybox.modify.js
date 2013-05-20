@@ -1,7 +1,4 @@
-**[GitHub project](https://github.com/carlol/oojs)**
-
-
-----------
+# tinybox.modify.js
 
 Tinybox2 is the successor of the previously published resource TinyBox which is a standalone JavaScript modal windows library.   
 The library is lightweight ( **5kb** ) and supports *images*, *iframes*, *HTML* and *Ajax* requests natively.  
