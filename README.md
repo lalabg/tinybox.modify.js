@@ -9,6 +9,8 @@ The library is lightweight (**5kb**) and supports *images*, *iframes*, *HTML* an
 **tinybox.modify.js** is a small [Tinybox2][1] plugin able to manage the navigation between different popups.  
 It adds only **684byte** to the main library.
 
+**@see** a simple example: [link][2]
+
 #### import
 
     <link rel="stylesheet" href="style.css">
@@ -29,6 +31,5 @@ It adds only **684byte** to the main library.
 I am planning to insert *on open and on close callbacks* as additional parameters of modify().
 
 
-
-
   [1]: http://www.scriptiny.com/2011/03/javascript-modal-windows/
+  [2]: http://goo.gl/3bszC
