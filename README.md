@@ -18,7 +18,7 @@ It adds only **684byte** to the main library.
 ### API
 
     disableStack()              // to reset popups history and disable calls to modify() until the next show() call
-    close()                     // disableStack() and close current popup
+    close()                     // disableStack() and closes current popup
     back(n)                     // n backward jumps (if n is undefined it counts as 1)
     modify(content, noTrack)    // to jump to next popup (if noTrack is 1 or true, this jump is not tracked)
 
