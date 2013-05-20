@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>tinybox.modify.js - usage example</title>
+<style>
+	p {
+		font-size: 27px;	
+	}
+	.center {
+		text-align: center;
+	}
+	#popup1 {
+		width:240px; 
+		height:400px;
+		background: #c3d9ff;
+	}
+	#popup2 {
+		color: #c1433a;
+		width:400px; 
+		height:240px;
+		background: #cdeb8b;
+	}
+	#popup3 {
+		color: #FFF;
+		width:500px; 
+		height:500px;
+		background: #c1433a;
+	}
+	button {
+		background: #fff;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}	
+	button#start {
+		position: absolute;
+		width: 300px;
+		height: 150px;
+		top: 200px;
+		left: 50%;
+		margin-left: -150px;
+		font-size: 45px;
+	}
+</style>
+<link rel="stylesheet" href="../lib/style.css">
+<script type="text/javascript" src="../lib/tinybox.js"></script>
+<script type="text/javascript" src="../src/tinybox.modify.min.js"></script>
+<script type="text/javascript">
+	var button_back = '<button onclick="TINY.box.back()">Back</button>';
+	var button_3 = '<button onclick="TINY.box.modify(popup_3,1)">Show Third Popup</button>';
+	var popup_3 = '<div id="popup3" class="center"><p>Third Popup</p> '+button_back+'</div>';
+	var button_2 = '<button onclick="TINY.box.modify(popup_2)">Show Second Popup</button>';
+	var popup_2 = '<div id="popup2" class="center"><p>Second Popup</p><p>not pushed onto the stack</p> '+button_back+' '+button_3+'</div>';
+	var popup_1 = '<div id="popup1" class="center"><p>First Popup</p> '+button_2+'</div>';
+</script>
+</head>
+<body>
+
+<button id="start" onclick="TINY.box.show({html:popup_1, stack:true})">Show Popup</button>
+
+</body>
+</html>
