@@ -4,7 +4,7 @@
 Tinybox2 is the successor of the previously published resource TinyBox which is a standalone JavaScript modal windows library.   
 The library is lightweight ( **5kb** ) and supports *images*, *iframes*, *HTML* and *Ajax* requests natively.  
 
-**tinybox.modify.js** is a small [Tinybox2][1] plugin able to manage the navigation between different popups.  
+**tinybox.modify.js** is a small [Tinybox2][1] plugin that is able to manage the navigation between different popups.  
 It adds only **684byte** to the main library.
 
 **@see** a simple example: [**link**][2]
